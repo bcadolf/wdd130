@@ -44,7 +44,7 @@ h3 {
 }
 
 footer {
-	position: fixed;
+	position: fixed; /*this will cause the postion to stay in the same place relative to you view as you scroll */
 	bottom: 0;
 	margin: 1rem;
 	border-top: 1px solid #000;
