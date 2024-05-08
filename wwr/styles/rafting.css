@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --primary-color: #24523a;
+    --secondary-color: #4ff6ff;
+    --accent1-color: linear-gradient(#4ff6ff, #40CEDF, #0E4FF5);
+    --accent2-color:  #0E850B;
+
+    --heading-font: 'Montserrat', sans serif;
+    --paragraph-font: 'Montserrat', sans serif;
+
+    --nav-background-color: #24523A;
+    --nav-link-color: #4ff6ff;
+    --nav-hover-link-color: #0e4ff5;
+    --nav-hover-background-color: #0e850b;
+}
+
+body {
+    background: var(--accent1-color) fixed;
+    background-repeat: no-repeat;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    color: var(--primary-color);
+    text-align: left;
+    margin-left: 1rem;
+}
+
+header nav {
+    background: var(--nav-background-color);
+    float: right;
+    font-size: 1.2rem; display: flex;
+}
+
+header nav a {
+    display: block;
+    color: var(--nav-link-color);
+    padding: 1rem;
+}
+
+header nav a:link, nav a:visited { 
+    color: var(--nav-link-color);
+}
+
+header nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color)
+}
+
+header img {
+    float: left 50%;
+    width: 200px;
+}
+
+.hero div {
+    position: relative;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+
+footer p {
+    color: #4ff6ff;
+    text-align: center;
+}
+
+footer img {
+    width: 2rem;
+    float: right;
+    margin-bottom: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
