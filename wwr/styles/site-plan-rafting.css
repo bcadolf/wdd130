@@ -8,9 +8,9 @@ body {
 }
 
 :root {
-    --primary-color: #40CEDF;
-    --secondary-color: #24523A;
-    --accent1-color: #0E4FF5;
+    --primary-color: #24523a;
+    --secondary-color: #4ff6ff;
+    --accent1-color: linear-gradient(#4ff6ff, #40CEDF, #0E4FF5);
     --accent2-color:  #0E850B;
 
     --heading-font: 'Montserrat', sans serif;
@@ -29,7 +29,7 @@ h1, h2, h3, h4, h5, h6 {
 
 header {
     padding: 20px;
-    background-color: var(--accent1-color);
+    background: var(--accent1-color);
 }
 
 p {
