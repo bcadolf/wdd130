@@ -7,17 +7,28 @@
 nav {
     background-color: steelblue;
     padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 nav a {
     color: white;
     display: block;
     padding: 20px;
+    text-decoration: none;
 }
 
 h1 {
     color: steelblue;
-    text-indent: 5rem ;
+    border-bottom: steelblue solid 2px;
+    margin: 3px;
+    text-align: center;
+}
+
+header, .grid, footer {
+    max-width: 840px;
+    margin: 0 auto;
 }
 
 main img {
@@ -35,14 +46,22 @@ main p {
     margin-left: 10px !important;
 }
 
+.grid {
+    display: grid;
+    align-items: center;
+}
+
 main {
-    max-width: 840px;
+    margin: 1rem;
+    grid-column: 2/3;
 }
 
 aside {
     width: 20rem;
     text-align: center;
     position: relative;
+    grid-column: 1/2;
+    grid-row: 1/2;
 }
 
 aside img {
