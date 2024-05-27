@@ -3,7 +3,7 @@
 :root {
     --primary-color: #24523a;
     --secondary-color: #4ff6ff;
-    --accent1-color: linear-gradient(#4ff6ff, #40CEDF, #0E4FF5);
+    --accent1-color: linear-gradient(#4ff6ff9f, #40cfdf9f, #0e4ff590);
     --accent2-color:  #0E850B;
 
     --heading-font: 'Montserrat', sans serif;
@@ -24,6 +24,7 @@ body {
 
 a {
     text-decoration: none;
+    color: var(--primary-color);
 }
 
 p {
@@ -135,7 +136,7 @@ header {
 
 .adventure {
     display: flex;
-    max-width: 840px;
+    max-width: 960px;
     flex-wrap: wrap;
     justify-content: space-between;
 }
@@ -166,7 +167,7 @@ footer {
 }
 
 footer p {
-    color: #4ff6ff;
+    color: var(--primary-color);
     text-align: center;
 }
 
