@@ -303,7 +303,6 @@ textarea {
 .contact-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid: 26px 1fr 1fr;
 }
 
 .contact-grid h1 {
