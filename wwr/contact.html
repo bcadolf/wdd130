@@ -18,7 +18,7 @@
             <a href="contact.html">Contact Us</a>
         </nav>
     </header>
-    <main>
+    <main class="contact-grid">
         <h1>Rafting the Potomac | Contact Us</h1>
         <div class="company">
             <h2>Company Information</h2>
@@ -32,49 +32,51 @@
         <div class="employees">
             <h2>Employee List</h2>
                 <figure>
-                    <img src="https://placehold.co/100x100/black/orange" alt="">
-                    <figcaption></figcaption>
+                    <img src="images/ceo.png" alt="Headshot of CEO">
+                    <figcaption>CEO:<br>Happy founder and owner of Rafting the Potomac.</figcaption>
                 </figure>
-                <p>test</p>
                 <figure>
-                    <img src="https://placehold.co/100x100/black/orange" alt="">
-                    <figcaption></figcaption>
+                    <img src="images/chief.png" alt="Headshot of Chief Guide">
+                    <figcaption>Chief Guide:<br>Our most experinced guide.</figcaption>
                 </figure>
-                <p>test</p>
                 <figure>
-                    <img src="https://placehold.co/100x100/black/orange" alt="">
-                    <figcaption></figcaption>
+                    <img src="images/newbie.png" alt="Headshot of Newbie">
+                    <figcaption>Newbie:<br>The newest addition to this fun team.</figcaption>
                 </figure>
-                <p>test</p>
         </div>
         <div class="contact-form">
             <form>
                 <h2>Contact Us</h2>
-                <label for="name">Full Name:<input type="text" id="name" name="name" placeholder="Jackson Von Nefrond"></label>
-                <label for="email">Email:<input type="email" id="email" name="email" placeholder="von.nefrond@domain.com"></label>
-                <p>Choose the purpose of message:</p>
-                <input type="radio" id="general" name="purpose">
-                <label for="general">General Inquiry</label><br>
-                <input type="radio" id="reservation" name="purpose">
-                <label for="reservation">Reservation Question</label><br>
-                <input type="radio" id="suggestion" name="purpose">
-                <label for="suggestion">Website Suggestion</label><br>
-                <textarea name="message" rows="6" placeholder="Type message here"></textarea>
+                <fieldset><legend>Your Information</legend>
+                    <label for="name">Full Name:<input type="text" id="name" name="name" placeholder="Jackson Von Nefrond"></label>
+                    <label for="email">Email:<input type="email" id="email" name="email" placeholder="von.nefrond@domain.com"></label>
+                </fieldset>
+                <fieldset><legend>Question</legend>
+                    <p>Choose the purpose of message:</p>
+                    <input type="radio" id="general" name="purpose">
+                    <label for="general">General Inquiry</label><br>
+                    <input type="radio" id="reservation" name="purpose">
+                    <label for="reservation">Reservation Question</label><br>
+                    <input type="radio" id="suggestion" name="purpose">
+                    <label for="suggestion">Website Suggestion</label><br>
+                    <textarea name="message" rows="6" placeholder="Type message here"></textarea>
+            </fieldset>
                 <input type="checkbox" id="subscription" name="subscription">
                 <label for="subscription">Please subscribe me to the monthly newsletter</label>
                 <button type="submit" onclick="alert('Thank you for the message!')">Send Message</button>
             </form>
         </div>
-    </main>
-    <footer>
-        <p>© 2024 Rafting The Potomac 🛶 Brandon Adolf</p>
-        <a href="https://app.moqups.com/zJi0anIY2XdzgGuHZ8j8Xk9Pkgi8YAmH/view/page/a29d6f3c2">Wireframe Link</a>
-        <nav class="sociallinks">
+    </main> 
+    <footer class="footer-flex">
+        <div class="wireframe"><a href="https://app.moqups.com/zJi0anIY2XdzgGuHZ8j8Xk9Pkgi8YAmH/view/page/a29d6f3c2" target="_blank">Wireframe Link</a></div>
+        <div id="copyright"><p>© 2024 Rafting The Potomac 🛶 Brandon Adolf</p></div>
+        <div id="media-links">
+            <nav class="sociallinks">
             <a href="https://facebook.com"><img src="images/facebook.webp" alt="Facebook"></a>
             <a href="https://twitter.com"><img src="images/X.webp" alt="X"></a>
             <a href="https://instagram.com"><img src="images/instagram.webp" alt="Instagram">
             </a>
-        </nav>
+        </nav></div>
     </footer>
 </body>
 </html>
