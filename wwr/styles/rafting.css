@@ -191,7 +191,7 @@ footer img {
 }
 
 .footer-flex {
-    display: flexbox;
+    display: flex;
 }
 
 #media-links {
@@ -261,7 +261,6 @@ footer img {
 }
 
 form {
-    width: 640px;
     margin: 10px;
     padding: 1rem;
     border: 1px solid #0e4ff5;
@@ -272,7 +271,7 @@ form {
 }
 
 fieldset {
-    display: flexbox;
+    display: flex;
     gap: 5px;
     margin: 10px;
     border: 1px solid #0e4ff5;
@@ -304,7 +303,7 @@ textarea {
 .contact-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid: 2rem 1fr 1fr;
+    grid: 26px 1fr 1fr;
 }
 
 .contact-grid h1 {
